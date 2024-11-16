@@ -2,6 +2,7 @@
 // Você pode escrever seu código neste editor
 //Geração de peixes
 timer = room_speed*3;
+timer_lixo = room_speed*3.5
 cria_peixe = function()
 {
 	while (global.peixes<10)
@@ -36,3 +37,27 @@ cria_garra = function()
 	}
 }
 cria_garra();
+
+//Criando lixo
+cria_lixo = function()
+{
+	timer_lixo--
+	if (timer_lixo<=0)
+	{
+		var _lixo = choose(obj_caixa,obj_lata)
+		var _lado = choose("Direita", "Esquerda")
+		if (_lado == "Direita")
+		{
+			var _objeto = instance_create_layer(1088,random_range(250,550),"Peixes",_lixo);
+			_objeto.speed = -3;
+			timer_lixo = room_speed*3.5
+		}
+		else
+		{
+			var _objeto = instance_create_layer(-64,random_range(250,550),"Peixes",_lixo);
+			_objeto.speed = 3;
+			_objeto.image_xscale *=-1;
+			timer_lixo = room_speed*3.5
+		}
+	}
+}
