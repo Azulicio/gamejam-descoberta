@@ -15,6 +15,7 @@ pega_peixe = function()
 	switch (estado)
 	{
 		case "Pescando":
+			image_index=0;
 			pegou = instance_place(x,y,obj_pexe);
 			if (pegou)
 			{
@@ -25,6 +26,7 @@ pega_peixe = function()
 		case "Catch":
 			if (pegou)
 			{	
+				image_index=1;
 				pegou.x = x;
 				pegou.y = y;
 				if (y<180)
