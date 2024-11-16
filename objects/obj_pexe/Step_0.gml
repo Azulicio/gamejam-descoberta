@@ -1,3 +1,3 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-draw_text(20,20,string(global.peixes))
+if (x <-80) or (x>1100) instance_destroy()

@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pexe",
+  "%Name":"obj_pexeindex",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pexe",
+  "name":"obj_pexeindex",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_pexe",
-    "path":"sprites/spr_pexe/spr_pexe.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -34,6 +34,9 @@ pega_peixe = function()
 					var _pegando = mouse_check_button(mb_left)
 					if (_pegando)
 					{
+						var _peixe = pegou.sprite_index
+						ds_list_add(global.lista_encontrados,_peixe);
+						obj_pexeindex.sprite_index = ds_list_find_value(global.lista_encontrados, ds_list_size(global.lista_encontrados)-1)
 						instance_destroy(pegou);
 						global.peixes++
 						pegou = noone;

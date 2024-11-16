@@ -40,6 +40,7 @@
     {"id":{"name":"obj_garra","path":"objects/obj_garra/obj_garra.yy",},},
     {"id":{"name":"obj_linha","path":"objects/obj_linha/obj_linha.yy",},},
     {"id":{"name":"obj_pexe","path":"objects/obj_pexe/obj_pexe.yy",},},
+    {"id":{"name":"obj_pexeindex","path":"objects/obj_pexeindex/obj_pexeindex.yy",},},
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"id":{"name":"scr_peixes","path":"scripts/scr_peixes/scr_peixes.yy",},},
     {"id":{"name":"spr_boneco","path":"sprites/spr_boneco/spr_boneco.yy",},},

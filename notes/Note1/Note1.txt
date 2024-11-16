@@ -3,3 +3,13 @@ Alien qualquer pescando em asteróides pelo espaço em busca de peixes diferente
 Sistema de melhorias para pescar peixes diferentes
 Obstáculos
 Estética espacial
+
+-sistema de pesca:
+  --a linha da vara de pesca aumentar e diminuir baseado na distancia do mouse em relação a posição X (feito)
+  --geração de peixes de forma aleatória, onde há uma quantidade max de peixes que podem aparecer (feito)
+  --obtaculos que vão interferir na pesca (lixos, bichos maiores, robos, sei lá)
+  --ao levar o obj_peixe para cima, verificar, contabilizar e catalogar caso não esteja inserido (feito)
+
+-sistema de catalogo:
+  --duas arrays, uma capturados e uma de peixes para encontrar
+  --após a rodada de pesca, comparar listas e adicionar ocorrências iguais
